@@ -1,0 +1,19 @@
+# Assignment-02
+## Karah Durrin
+
+Data is sent across the internet in little packets,
+each packet has a piece of Data inside. Once each packet
+gets to the destination they all come together to create
+the file that was sent.
+
+The DNS server is what translates the name of
+the website to its actual IP address.
+
+A cookie is like a temporary electronic fingerprint.
+It tells the website that it is you.
+
+A List of the 3 basic parts of a URL:
+
+1. protocol
+2. domain
+3. subdomain
