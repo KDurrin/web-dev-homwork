@@ -1,5 +1,4 @@
 # Assignment-05
 ## Karah Durrin
 
-A web page can have 5 <head> elements, meta, veiwport, title, links and style and 2 <body>
-elements structural markup and semantic markup.
+The Structural mark up embeds information about the structure of the document examples would be Headings, breaks, paragraphs or lists.  where semantics mark up is used to reinforce the meaning of the information in the document. examples of these would be emphise or strong also known as italics and bold.
