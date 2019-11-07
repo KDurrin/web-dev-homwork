@@ -1,5 +1,5 @@
 h1{
-  color: red;
+  color: rgb(189,110,38);
 }
 
 .square{
@@ -8,18 +8,18 @@ h1{
 }
 
 #pink{
-  background-color: #FF377B;
+  background-color: #a83187;
 }
 
-#green{
-  background-color: #7DE522;
+#yellow{
+  background-color: #d6ae46;
 }
 
-#yellow {
-  background-color: #FBE608;
+#purple {
+  background-color: #6c4963;
 }
 
 #blue{
-  background-color: #3AB1FC;
+  background-color: #48728c;
 
 }
