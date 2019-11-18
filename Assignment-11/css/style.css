@@ -1,0 +1,16 @@
+/* (Home) Logo with border change on hover: */
+.site-logo {
+  background-color: transparent;
+  /* Draw a circle: */
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  /* Set margins top-center-bottom: */
+    margin: 0px auto 50px;
+}
+.site-logo:hover {
+  background-color: #999;
+}
+.site-logo #logo {
+  width: 140px;
+  height: 140px;
