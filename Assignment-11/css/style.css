@@ -1,16 +1,64 @@
-/* (Home) Logo with border change on hover: */
-.site-logo {
-  background-color: transparent;
-  /* Draw a circle: */
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-  /* Set margins top-center-bottom: */
-    margin: 0px auto 50px;
+body {
+  background-color:rgb(67,100,106);
+  margin: 0;
+  font-family: 'Calistoga', cursive;
+  font-size: 1.25em;
 }
-.site-logo:hover {
-  background-color: #999;
+.parent-container-03 {
+   border: 3px inset #333;
+   border-radius: 20px;
+   background-color: rgb(28,89,124);
+   width: 55%;
+   height: 25%
+   padding: .5em;
+   margin: auto;
 }
-.site-logo #logo {
-  width: 140px;
-  height: 140px;
+.child-container-03 {
+   width: 85%;
+   margin: 1em auto;
+   padding: 1em;
+   text-align: center;
+   border: 10px dotted #fff;
+   background-color: rgb(38,80,115);
+   color: #fff;
+   font-size: 1.25em;
+}
+.border-03 {
+   border-radius: 3em 10em 10em 2em / 10em 3em 10em 2em;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+#site-navigation a {
+  color: #FFF;
+  display: block;
+  margin: 0.5em 0;
+}
+#site-navigation a:hover {
+  text-indent: 0.5em;
+}
+
+#social-links {
+  background-color: rgb(38,80,115);
+  width: 40px;
+  position: inherit;
+  bottom: 25px;
+}
+
+}
+#social-links img:hover {
+  background-color: #FFF;
+}
+
+.sidebar
+{
+  background-color: rgb(67,100,106);
+    width: 200px;
+    padding: 50px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
