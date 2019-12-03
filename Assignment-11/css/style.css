@@ -8,10 +8,14 @@ body {
    border: 3px inset #333;
    border-radius: 20px;
    background-color: rgb(28,89,124);
-   width: 55%;
+   width: 35%;
    height: 25%
    padding: .5em;
    margin: auto;
+}
+.banner img {
+  width: 100%;
+  height: 50%;
 }
 .child-container-03 {
    width: 85%;
@@ -27,10 +31,7 @@ body {
    border-radius: 3em 10em 10em 2em / 10em 3em 10em 2em;
 }
 
-.banner img {
-  width: 100%;
-  height: auto;
-}
+
 #site-navigation a {
   color: #FFF;
   display: block;
