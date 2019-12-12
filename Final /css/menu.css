@@ -1,0 +1,84 @@
+
+/* MENU BAR (CONTAINER): */
+menu{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(69,85,98);
+}
+
+/* TOP-LEVEL LINKS: */
+#site-links {
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+#site-links .menu-item{
+  width: 6em;
+  padding: .5em 1em;
+  display: inline-block;
+
+  background-color: rgb(69,85,98);
+
+  text-align: center;
+  color: #FFF;
+
+}
+#site-links .menu-item:hover{
+  color: rgb(97,126,148);
+  text-decoration: underline overline;
+  text-decoration-color: rbg(73,38,139);
+  text-decoration-style: ;
+}
+
+/* DROPDOWN */
+#site-links .dropdown {
+  display: inline-block;
+  width: 6em;
+}
+#site-links .dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: rgb(97,126,148);
+  z-index: 5;
+}
+#site-links .dropdown-content a {
+  color: #000;
+  font-family:'Avro', Georgia, serif;
+}
+#site-links .dropdown-content a:hover {
+  color: rgb(97,126,148);
+  font-weight: 900;
+}
+#site-links .dropdown:hover .dropdown-content{
+  display: block;
+}
+#site-links .dropdown-item{
+  min-width: 6em;
+  padding: .5em 1em;
+  display: block;
+
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: rgb(115,150,158);
+}
+
+/*SOCIAL MEDIA ACCOUNTS: */
+#soicial-links {
+padding: .5em;
+display: inline-block;
+float: right;
+
+}
+#social-links .social-item{
+  margin: 0 5px;
+}
+#social-links img {
+  width:20px;
+  height: 20px;
+  opacity: .5;
+}
+#social-links img:hover {
+  opacity: 1;
+}
